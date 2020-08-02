@@ -41,11 +41,6 @@ h1, h2, h3, h4, h5 {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
-#header.header-active nav .nav-link {
-  color: #333;
-  --hover-color: #000;
-}
-
 #header-img {
   height: 60px;
   width: auto;
@@ -353,6 +348,11 @@ footer p a {
   body {
     font-size: 14px;
     --padding-x: 8rem;
+  }
+
+  #header.header-active nav .nav-link {
+    color: #333;
+    --hover-color: #000;
   }
 
   #nav-bar .btn-close, #header .btn-menu, #nav-bar h2 {

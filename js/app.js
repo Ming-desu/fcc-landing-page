@@ -1,5 +1,6 @@
 const header = document.getElementById('header')
 const nav = document.getElementById('nav-bar')
+const navLinks = document.querySelectorAll('.nav-link')
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > 0)
@@ -13,4 +14,10 @@ window.addEventListener('click', e => {
     nav.classList.add('nav-open')
   if (e.target.matches('.btn-close'))
     nav.classList.remove('nav-open')
+})
+
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    setTimeout(() => nav.classList.remove('nav-open'), 200)
+  })
 })
