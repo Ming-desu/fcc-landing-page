@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FCC: Product Landing Page - Soygo</title>
+
+  <link rel="stylesheet" href="/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,400&family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <script src="/js/app.js" defer></script>
+</head>
+<body>
+  <header id="header">
+    <img src="/img/soygo-banner.png" id="header-img" alt="Soygo Logo">
+    <nav id="nav-bar">
+      <h2>Menu</h2>
+      <div class="nav-links">
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#how" class="nav-link">How it works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#contact" class="nav-link">Contact Us</a>
+      </div>
+      <i class="las la-times btn-close"></i>
+    </nav>
+    <i class="las la-bars btn-menu"></i>
+  </header>
+  <main>
+    <section id="home">
+      <div class="overlay"></div>
+      <div class="header-message">
+        <h2>Drink Wild. <br>Hangout With Friends. <br>Establish Deep Connection.</h2>
+        <p>Start your day with us, grab one cup and help us to spread love in this world.</p>
+        <div>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <div class="header-message">
+        <h2>Why choose us?</h2>
+        <p>Over upon hundreds and thousands company that offers the same services, here's why you should choose us.</p>
+      </div>
+      <div class="services">
+        <div class="service">
+          <img src="/img/undraw_hot_beverage_2vw3.svg" class="service-icon" alt="Hot beverages">
+          <div class="service-message">
+            <h3>Always serve at the right temperature!</h3>
+            <p>We always assure that the drinks you order to us is neither hot nor cold. Depending on your request, we will send it at a preserved temperature so that it will satisfy your taste.</p>
+          </div>
+        </div>
+        <div class="service">
+          <img src="/img/undraw_in_no_time_6igu.svg" class="service-icon" alt="Fast delivery">
+          <div class="service-message">
+            <h3>Delivery in no time!</h3>
+            <p>We make sure that all the orders will be delivered as soon as the processing took place. We would not want to delay any moment for your favorite drinks.</p>
+          </div>
+        </div>
+        <div class="service">
+          <img src="/img/undraw_environment_iaus.svg" class="service-icon" alt="Eco-friendly">
+          <div class="service-message">
+            <h3>Love nature, love mother earth!</h3>
+            <p>We are actively participating some clean and green projects that aims to make the pollution in the planet Earth lessen. All of the items being used in our place is 100% from recycled materials.</p>
+          </div>   
+        </div>
+      </div>
+    </section>
+    <section id="how">
+      <h2>Watch some random video!</h2>
+      <iframe id="video" src="https://www.youtube-nocookie.com/embed/St03vf9r9sg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </section>
+    <section id="pricing">
+      <h2>Our humble menu</h2>
+      <div class="prices">
+        <div class="price">
+          <img src="/img/cup-of-taho.png" alt="Cup of Taho">
+          <h3>Soy-trawberry</h3>
+          <span>$ 2.75</span>
+        </div>
+        <div class="price">
+          <img src="/img/cup-of-taho.png" alt="Cup of Taho">
+          <h3>Soy-ube deluxe</h3>
+          <span>$ 2.55</span>
+        </div>
+        <div class="price">
+          <img src="/img/cup-of-taho.png" alt="Cup of Taho">
+          <h3>Matcha-soy</h3>
+          <span>$ 2.65</span>
+        </div>
+        <div class="price">
+          <img src="/img/cup-of-taho.png" alt="Cup of Taho">
+          <h3>Kamote-soy</h3>
+          <span>$ 2.45</span>
+        </div>
+      </div>
+      <button type="button" class="btn-view-more">View More</button>
+    </section>
+    <section id="contact">
+      <h2>Tell us what you want.</h2>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" name="email" id="email" placeholder="E.g. example@domain.com">
+        </div>
+        <div class="form-group">
+          <label for="message">Personal Message</label>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="What do you want to tell us?"></textarea>
+        </div>
+        <div class="right">
+          <input type="submit" id="submit" value="Send">
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Made with ❤️ by <a href="https://github.com/Ming-desu" title="Github Account">Joshua Ming</a></p>
+  </footer>
+
+  <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+</html>
